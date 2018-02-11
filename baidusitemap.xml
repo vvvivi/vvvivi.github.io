@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/02/10/text/</loc>
+    <lastmod>2018-02-11T02:04:43.143Z</lastmod>
+    <data>
+        <display>
+        <title>text</title>
+        <pubTime>2018-02-10T12:19:55.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/01/29/Test/</loc>
+    <lastmod>2018-01-29T14:59:03.497Z</lastmod>
+    <data>
+        <display>
+        <title>探索博客的建设！==</title>
+        <pubTime>2018-01-29T14:57:44.000Z</pubTime>
+        
+        <tag>博客啊博客</tag>
+         
+         
+           
+             
+              <breadCrumb title="小白喝小白呢" url="http://yoursite.com/categories/%E5%B0%8F%E7%99%BD%E5%96%9D%E5%B0%8F%E7%99%BD%E5%91%A2/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/01/29/article-title/</loc>
+    <lastmod>2018-01-29T14:30:28.147Z</lastmod>
+    <data>
+        <display>
+        <title>article title</title>
+        <pubTime>2018-01-29T14:30:28.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+  <url>
+    <loc>http://yoursite.com/2018/01/29/hello-world/</loc>
+    <lastmod>2018-01-29T04:46:54.948Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2018-01-29T04:46:54.948Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
