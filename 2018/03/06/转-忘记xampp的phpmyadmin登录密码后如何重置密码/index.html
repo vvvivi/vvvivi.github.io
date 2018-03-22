@@ -13,19 +13,19 @@
   
   
   
-  <title>article title | vvvivi</title>
+  <title>转--忘记xampp的phpmyadmin登录密码后如何重置密码 | vvvivi</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Imagination lifestyle Creativity">
+  <meta name="description" content="#前言xampp集成开发环境，包含有phpmyadmin数据库管理工具，可以登录以管理mysql数据库，但有时因误操作，比如删除了localhost的账户名，或因忘记了登录帐密，会被拒绝登入。在谷歌、百度多种方法后，终于发现以下这种方法，亲测可用 #正文 首先进入DOS，开一个cmd,关闭mysql（有的会提示未安装服务，只要关闭mysql的运行即可，不影响后续操作）   c:&amp;gt;sc stop m">
 <meta property="og:type" content="article">
-<meta property="og:title" content="article title">
-<meta property="og:url" content="http://vvvivi.github.io/2018/01/29/article-title/index.html">
+<meta property="og:title" content="转--忘记xampp的phpmyadmin登录密码后如何重置密码">
+<meta property="og:url" content="http://vvvivi.github.io/2018/03/06/转-忘记xampp的phpmyadmin登录密码后如何重置密码/index.html">
 <meta property="og:site_name" content="vvvivi">
-<meta property="og:description" content="Imagination lifestyle Creativity">
+<meta property="og:description" content="#前言xampp集成开发环境，包含有phpmyadmin数据库管理工具，可以登录以管理mysql数据库，但有时因误操作，比如删除了localhost的账户名，或因忘记了登录帐密，会被拒绝登入。在谷歌、百度多种方法后，终于发现以下这种方法，亲测可用 #正文 首先进入DOS，开一个cmd,关闭mysql（有的会提示未安装服务，只要关闭mysql的运行即可，不影响后续操作）   c:&amp;gt;sc stop m">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-01-29T14:30:28.147Z">
+<meta property="og:updated_time" content="2018-03-06T03:22:37.315Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="article title">
-<meta name="twitter:description" content="Imagination lifestyle Creativity">
+<meta name="twitter:title" content="转--忘记xampp的phpmyadmin登录密码后如何重置密码">
+<meta name="twitter:description" content="#前言xampp集成开发环境，包含有phpmyadmin数据库管理工具，可以登录以管理mysql数据库，但有时因误操作，比如删除了localhost的账户名，或因忘记了登录帐密，会被拒绝登入。在谷歌、百度多种方法后，终于发现以下这种方法，亲测可用 #正文 首先进入DOS，开一个cmd,关闭mysql（有的会提示未安装服务，只要关闭mysql的运行即可，不影响后续操作）   c:&amp;gt;sc stop m">
   
   
     <link rel="icon" href="/css/images/favicon.ico">
@@ -65,7 +65,7 @@
     </nav>
 </header>
       <div id="main" class="wrapper">
-        <div id="primary" class="site-content"><div id="content" role="main"><article id="post-article-title" class="post-article-title post type-post status-publish format-standard hentry">
+        <div id="primary" class="site-content"><div id="content" role="main"><article id="post-转-忘记xampp的phpmyadmin登录密码后如何重置密码" class="post-转-忘记xampp的phpmyadmin登录密码后如何重置密码 post type-post status-publish format-standard hentry">
     <!---->
 
       <header class="entry-header">
@@ -73,27 +73,53 @@
         
   
     <h1 class="entry-title article-title">
-      article title
+      转--忘记xampp的phpmyadmin登录密码后如何重置密码
     </h1>
   
 
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://vvvivi.github.io/2018/01/29/article-title/" data-id="cjf21s1lg00000oo0gizhztom" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://vvvivi.github.io/2018/03/06/转-忘记xampp的phpmyadmin登录密码后如何重置密码/" data-id="cjf21s1ne000d0oo0iqtymo3f" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
     <div class="entry-content">
       
-        
+        <p>#前言<br>xampp集成开发环境，包含有phpmyadmin数据库管理工具，可以登录以管理mysql数据库，但有时因误操作，比如删除了localhost的账户名，或因忘记了登录帐密，会被拒绝登入。<br>在谷歌、百度多种方法后，终于发现以下这种方法，亲测可用</p>
+<h2 id="正文"><a href="#正文" class="headerlink" title="#正文"></a>#正文</h2><ol>
+<li><p>首先进入DOS，开一个cmd,关闭mysql（有的会提示未安装服务，只要关闭mysql的运行即可，不影响后续操作）</p>
+<p>  c:><font color="#ff000"><strong>sc stop mysql</strong></font></p>
+</li>
+<li><p>进到mysql的bin目录下：(根据mysql所在盘,修改为对应的路径)</p>
+ <font color="#ff000"><strong>cd C:\xampp\mysql\bin</strong></font>
+</li>
+<li><p>执行命令(输入以下命令后，命令行不可动，不关闭，另开一个cmd界面)</p>
+ <font color="#ff000"><strong>mysqld –defaults-file=”C:\xampp\mysql\bin\my.ini” –console –skip-grant-tables</strong></font>
+</li>
+<li><p>另开一个cmd，进到mysql的bin目录下</p>
+  <font color="#ff000"><strong>cd C:\xampp\mysql\bin</strong></font>
+</li>
+<li><p>输入命令</p>
+<p> C:\xampp\mysql\bin&gt;<font color="#ff000"><strong>mysql -uroot mysql</strong></font></p>
+<p> mysql&gt;<font color="#ff000"><strong>UPDATE user SET Password=PASSWORD(‘123456’) where USER=’root’</strong></font></p>
+<p> mysql&gt; <font color="#ff000"><strong>FLUSH PRIVILEGES</strong></font> </p>
+<p> mysql&gt;  <font color="#ff000"><strong>quit</strong></font></p>
+<p> C:\xampp\mysql\bin&gt;<font color="#ff000"><strong>mysqladmin shutdown</strong></font></p>
+</li>
+<li><p>最后，重启mysql服务器。</p>
+</li>
+</ol>
+<hr>
+<p>###需要注意的是，要核对代码、空格和引号</p>
+
       
     </div><!-- .entry-content -->
 
     <footer class="entry-meta">
-    <a href="/2018/01/29/article-title/">
-    <time datetime="2018-01-29T14:30:28.000Z" class="entry-date">
-        2018-01-29
+    <a href="/2018/03/06/转-忘记xampp的phpmyadmin登录密码后如何重置密码/">
+    <time datetime="2018-03-06T02:26:47.000Z" class="entry-date">
+        2018-03-06
     </time>
 </a>
     
